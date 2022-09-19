@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="utf-8">
+    <title>test</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+</head>
+<body>
+
+<section class="hero is-dark"">
+  <div class="hero-body">
+    <div class="container">
+      <h1 class="title is-1">
+        テスト
+      </h1>
+      <h2 class="subtitle is-6">
+        test
+      </h2>
+    </div>
+  </div>
+</section>
+
+
+<form id="main">
+<div class="field">
+    <p class="control">
+      <label class="label is-size-4">解答欄</label>
+    </P>
+    <div class="control">
+        <input class="input is-danger is-nomal" type="text" id="answer" placeholder="答えを入力">
+    </div>
+    <p class="help is-info">ひらがなで入力してください</p>
+    <P class="control">
+      <button class="button is-danger" onclick="JudgeAnswer();">判定</button>
+    </p>
+</div>
+</form>
+
+
+<footer class="footer">
+  <div class="content has-text-centered">
+    <p>
+      フッター
+    </p>
+  </div>
+</footer>
+
+<script src="test.js"></script>
+
+</body>
+</html>
